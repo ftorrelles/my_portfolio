@@ -1,0 +1,251 @@
+:root {
+    --deatails: #ef8700;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+.bt_top:hover {
+    color: var(--deatails);
+}
+
+/* HOME */
+.div_img_home {
+    border: solid 3px var(--deatails);
+    width: 100%;
+    padding: 5px;
+}
+.bxs-home,
+.bxs-contact,
+.bxl-facebook-circle,
+.bxl-twitter,
+.bxl-linkedin {
+    font-size: 2.5rem;
+    color: var(--deatails);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+.bxl-facebook-circle:hover,
+.bxl-twitter:hover,
+.bxl-linkedin:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.div_info_home {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    align-self: center;
+    gap: 3rem;
+}
+.div_infoDetail_home {
+    padding-left: 2rem;
+}
+.div_bt_home {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.div_icons_home {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+/* about */
+
+.div_img_about {
+    border: solid 3px var(--deatails);
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+}
+.div_icons_about {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.div_infoDetail_about {
+    padding-left: 2rem;
+}
+
+.div_bt_about {
+    display: flex;
+    gap: 2rem;
+    padding-left: 2rem;
+}
+
+/* -----section skills------ */
+.skills_content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.skills_content-items {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.skills_content-items-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--deatails);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.skills_content-items-img > i {
+    font-size: 5rem;
+}
+
+.skills_content-items-img i:hover {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+}
+/* ----portfolio---- */
+.Portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5rem;
+    gap: 2rem;
+}
+.title_project {
+    color: #e8e2e2;
+}
+
+.Portfolio__Project {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    background-color: #fafafa;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 15px #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Portfolio__Project-Image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.Portfolio__Project-Image img {
+    width: 100%;
+    height: auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.Portfolio__Project:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 20px #ccc;
+}
+
+.Portfolio__Project:hover .Portfolio__Project-Image img {
+    transform: scale(1.2);
+    opacity: 0.6;
+}
+
+.Portfolio__Project-Description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: var(--deatails);
+    background-color: #303030;
+    padding: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.Portfolio__Project:hover .Portfolio__Project-Description {
+    opacity: 1;
+    visibility: visible;
+}
+/* ---contacto--- */
+.titles_contact {
+    color: var(--deatails);
+}
+.form_field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+input,
+textarea {
+    border-radius: 20px;
+    padding-left: 1rem;
+}
+.bt_contact {
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.col_contactInfo {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div_icons_contact {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+/* ----Media Query---- */
+@media (max-width: 992px) {
+    .skills_content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .Portfolio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .skills_content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .title_skills,
+    .title_experience {
+        margin-top: 5rem;
+    }
+    .Portfolio {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .div_infoDetail_home {
+        padding-left: 0;
+    }
+    .div_infoDetail_about {
+        padding-left: 0;
+    }
+    .div_bt_about {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        max-width: 70%;
+    }
+    .skills_content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .title_skills,
+    .title_experience {
+        margin-top: 5rem;
+    }
+}
