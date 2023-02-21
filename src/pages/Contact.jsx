@@ -67,7 +67,7 @@ const Contact = () => {
                         +58 4125974805
                     </li>
                 </ul>
-                <div className=".div_icons_contact">
+                <div className="div_icons_contact">
                     <a
                         href="https://www.linkedin.com/in/francisco-torrelles-227771209/"
                         target="_blank"
