@@ -9,12 +9,14 @@ const Home = () => {
     return (
         <div>
             <Row xs={1} md={2} lg={2}>
-                <Col lg={4} className="div_img_home">
-                    <img src="/my.jpeg" alt="" />
+                <Col lg={4}>
+                    <div className="div_img_home">
+                        <img src="/my.jpeg" alt="" />
+                    </div>
                 </Col>
                 <Col className="div_info_home" lg={7}>
                     <div className="div_infoDetail_home">
-                        <h4>Mi nombre es Francisco; me especilizo en</h4>
+                        <h4>Mi nombre es Francisco, me especilizo en</h4>
                         <h1 style={{ color: "#EF8700" }}>
                             <Typewriter
                                 options={{

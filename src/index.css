@@ -64,7 +64,7 @@ img {
     border: solid 3px var(--deatails);
     max-width: 100%;
     padding: 10px;
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 .div_icons_about {
     display: flex;
