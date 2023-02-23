@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Experience = () => {
     return (
         <div>
-            <h2 className="title_experience">experience</h2>
+            <h2 className="title_experience">Experiencia</h2>
             <Accordion defaultActiveKey="0" flush>
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>
@@ -68,9 +68,9 @@ const Experience = () => {
                                 Apoye en temas de vacaciones a nivel Colombia.
                             </ListGroup.Item>
                             <ListGroup.Item>
-                                Por los resultados logrados fue reconocido al
+                                Por los resultados logrados fui reconocido al
                                 pasar el año con una camiseta y una medalla con
-                                el valor de la iniciativa, al mismo tiempo fue
+                                el valor de la iniciativa, al mismo tiempo fui
                                 promovido como analista de Bienestar-OP.
                             </ListGroup.Item>
                         </ListGroup>

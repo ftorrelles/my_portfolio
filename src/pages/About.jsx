@@ -64,10 +64,11 @@ const About = () => {
                             que más me apasiona; poseo conocimientos en
                             JavaScript y en varias tecnologías del Desarrollo
                             Web como lo son, Node Js, React, Redux, React
-                            Router, React Hook Form, HTML, CSS, Bootstrap, Git y
-                            GitHub. Las cuales puedo aportar junto a mis
-                            habilidades blandas, para lograr el objetivo de
-                            desarrollarme profesionalmente en el ámbito de TI.
+                            Router, React Hook Form, HTML, CSS, Bootstrap,
+                            PostgreSQL, Express, Sequelize, Git y GitHub. Las
+                            cuales puedo aportar junto a mis habilidades
+                            blandas, para lograr el objetivo de desarrollarme
+                            profesionalmente en el ámbito de TI.
                             <br />
                             <br />
                             Adicional, cuento con conocimiento amplio en manejo
