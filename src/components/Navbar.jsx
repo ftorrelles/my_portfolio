@@ -52,7 +52,7 @@ const NavBar = () => {
                 </Container>
                 <Container style={{ display: "flex", justifyContent: "end" }}>
                     <Nav.Link
-                        href="https://drive.google.com/file/d/1AFSE07qh-pVwAsVbiVAyL_19ztg4jJAF/view"
+                        href="https://drive.google.com/file/d/1B1gaJH90fnMV5qYjArbGIxQ-H8GMvI80/view"
                         target="_blank"
                     >
                         <div
