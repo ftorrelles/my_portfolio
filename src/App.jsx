@@ -8,6 +8,7 @@ import Experience from "./pages/Experience";
 import Portfolio from "./pages/Portfolio";
 import { Container } from "react-bootstrap";
 import NavBar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -24,6 +25,21 @@ function App() {
                         <Route path="/portfolio" element={<Portfolio />} />
                     </Routes>
                 </Container>
+                <div
+                    className="floating-logo"
+                    style={{
+                        position: "fixed",
+                        bottom: "1rem",
+                        right: "1rem",
+                        zIndex: "9999",
+                    }}
+                >
+                    <a href="https://wa.me/573134985415" target="_blank">
+                        <i className="bx bxl-whatsapp-square"></i>
+                    </a>
+                </div>
+
+                <Footer />
             </div>
         </HashRouter>
     );
