@@ -27,20 +27,22 @@ const ContentContact = () => {
         reset();
         axios
             .post("/emails/contact", data)
-            .then(() =>
+            .then(() => {
                 setNotification({
                     show: true,
                     variant: "success",
                     message: "Message sent!",
-                })
-            )
-            .catch(() =>
+                });
+                window.scrollTo(0, 0); // Desplazar la página hacia arriba
+            })
+            .catch(() => {
                 setNotification({
                     show: true,
                     variant: "danger",
                     message: "There was an error",
-                })
-            );
+                });
+                window.scrollTo(0, 0); // Desplazar la página hacia arriba
+            });
     };
     return (
         <>
