@@ -33,27 +33,31 @@ const ContentAbout = () => {
                                 } `}
                                 ref={ref}
                             >
-                                <strong>
-                                    Soy desarrollador web Full Stack{" "}
-                                </strong>{" "}
-                                con mas enfoque en el front-end. <br />
-                                <br /> Seguir creciendo a medida que desempeño
-                                mis labores en los proyectos, es lo que más me
-                                apasiona; poseo conocimientos en JavaScript y
-                                node.js, domino varias tecnologías del
-                                Desarrollo Web como lo son, React, Redux, React
-                                Router, React Hook Form, HTML, CSS, Bootstrap,
-                                PostgreSQL, Express, Sequelize, GitHub, entre
-                                otras. He usado gran variedad de librerias para
-                                realizar tareas como mapas dinamicos,
-                                contadores, efecto de escritura y muchas mas.{" "}
+                                <strong>Desarrollador web full stack</strong>{" "}
+                                con experiencia en proyectos utilizando en el
+                                front-end, React.js, Redux, React Router DOM,
+                                React Hook Form, Axios y Bootstrap; he
+                                implementado diversas librerías para mejorar la
+                                experiencia del usuario, desde calendarios hasta
+                                efectos visuales. <br />
+                                <br /> En el back-end, he trabajado con Node.js,
+                                Express.js y Sequelize CLI, implementando
+                                tecnologías como Nodemailer, Bcrypt y
+                                Jsonwebtoken. Con capacidad de crear APIs
+                                completas, gestionando arquitecturas de
+                                controladores y servidores, así como la
+                                manipulación de bases de datos como PostgreSQL y
+                                MySQL. <br />
                                 <br />
-                                <br />
-                                Tengo habilidades blandas como buena
-                                comunicación, trabajo en equipo, adaptabilidad
-                                que he desarrollado en mi carrera profesional
-                                las cuales aportan un plus adicional a los
-                                conocimientos tecnicos que poseo. <br />
+                                Además de mis habilidades técnicas, poseo una
+                                sólida capacidad de trabajo en equipo,
+                                demostrada al liderar equipos regionales de
+                                reclutamiento de hasta 7 personas. Mi historial
+                                incluye la gestión efectiva de KPIs, demostrando
+                                la capacidad de trabajar bajo presión y la
+                                habilidad para aprender rápidamente,
+                                contribuyendo al éxito tanto técnico como humano
+                                de los proyectos que lidero. <br />
                                 <br /> Estoy en constante capacitación para
                                 seguir creciendo y preparado para aportar valor
                                 a tu empresa.
@@ -88,7 +92,7 @@ const ContentAbout = () => {
                                 <span style={{ color: "#ef8700" }}>
                                     telefono:
                                 </span>
-                                +58 4125974805
+                                +57 320 3510452
                             </li>
                         </ul>
 
@@ -101,7 +105,7 @@ const ContentAbout = () => {
                             </a>
 
                             <a
-                                href="https://wa.me/573134985415"
+                                href="https://wa.me/573203510452"
                                 target="_blank"
                             >
                                 <i className="bx bxl-whatsapp"></i>

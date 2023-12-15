@@ -127,6 +127,16 @@ const ContentSkills = () => {
                     <div className="skills-slide">
                         <div className="skills_content-items">
                             <div className="skills_content-items-img">
+                                <img src="/mysql-svgrepo-com.svg" alt="" />
+                            </div>
+                            <p>
+                                <strong>MySQL</strong>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="skills-slide">
+                        <div className="skills_content-items">
+                            <div className="skills_content-items-img">
                                 <i className="bx bx-poll"></i>
                             </div>
                             <p>

@@ -20,6 +20,66 @@ const ContentPortfolio = () => {
 
                 <div className="Portfolio_content">
                     <div className="Portfolio__Project">
+                        <h3 className="title_project">Vivir Chevere</h3>
+                        <div className="Portfolio__Project-Image">
+                            <img
+                                src="/vivirChevere.JPG"
+                                className="active"
+                                alt=""
+                            />
+                        </div>
+                        <div className="Portfolio__Project-Description">
+                            <a
+                                style={{
+                                    textDecoration: "none",
+                                    color: "#ef8700",
+                                }}
+                                href="https://vivirchevere.com/"
+                                target={"_blank"}
+                            >
+                                <p>
+                                    software integral de control empresarial.{" "}
+                                    <br />
+                                    <br />
+                                    construido en React.js y en Node.js <br />
+                                    <br />
+                                    haz click acá para verlo
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="Portfolio__Project">
+                        <h3 className="title_project">CodeCraft</h3>
+                        <div className="Portfolio__Project-Image">
+                            <img
+                                src="/codeCraft.JPG"
+                                className="active"
+                                alt=""
+                            />
+                        </div>
+                        <div className="Portfolio__Project-Description">
+                            <a
+                                style={{
+                                    textDecoration: "none",
+                                    color: "#ef8700",
+                                }}
+                                href="https://escodecraft.com/"
+                                target={"_blank"}
+                            >
+                                <p>
+                                    Pagina web estatica, empresa de desarrollo
+                                    web <br />
+                                    <br />
+                                    construido en React.js <br />
+                                    <br />
+                                    haz click acá para verlo
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="Portfolio__Project">
                         <h3 className="title_project">Biupoll</h3>
                         <div className="Portfolio__Project-Image">
                             <img src="/biupoll.JPG" className="active" alt="" />
@@ -102,35 +162,7 @@ const ContentPortfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="Portfolio__Project">
-                        <h3 className="title_project">CRUD de inventario</h3>
-                        <div className="Portfolio__Project-Image">
-                            <img
-                                src="/crud products.PNG"
-                                className="active"
-                                alt=""
-                            />
-                        </div>
-                        <div className="Portfolio__Project-Description">
-                            <a
-                                style={{
-                                    textDecoration: "none",
-                                    color: "#ef8700",
-                                }}
-                                href="https://crud-products-ft.netlify.app/"
-                                target={"_blank"}
-                            >
-                                <p>
-                                    Creación de inventario de tienda de
-                                    productos. <br />
-                                    <br />
-                                    construido en React.js <br />
-                                    <br />
-                                    haz click acá para verlo
-                                </p>
-                            </a>
-                        </div>
-                    </div>
+
                     <div className="Portfolio__Project">
                         <h3 className="title_project">Betho's</h3>
                         <div className="Portfolio__Project-Image">

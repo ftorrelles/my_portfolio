@@ -115,7 +115,7 @@ const ContentContact = () => {
                         </li>
                         <li>
                             <span style={{ color: "#ef8700" }}>telefono:</span>
-                            +58 4125974805
+                            +57 320 3510452
                         </li>
                     </ul>
                     <div className="div_icons_contact">
@@ -126,7 +126,7 @@ const ContentContact = () => {
                             <i className="bx bxl-linkedin"></i>
                         </a>
 
-                        <a href="https://wa.me/573134985415" target="_blank">
+                        <a href="https://wa.me/573203510452" target="_blank">
                             <i className="bx bxl-whatsapp"></i>
                         </a>
                     </div>

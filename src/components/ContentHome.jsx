@@ -26,7 +26,7 @@ const ContentHome = () => {
                                         "React.js",
                                         "HTML y CSS",
                                         "Node.js con Express.js",
-                                        "Sequelize y PostgreSQL",
+                                        "Sequelize, PostgreSQL y MySQL",
                                         "Power BI",
                                     ],
                                     autoStart: true,
@@ -65,7 +65,7 @@ const ContentHome = () => {
                         >
                             <i className="bx bxl-linkedin"></i>
                         </a>
-                        <a href="https://wa.me/573134985415" target="_blank">
+                        <a href="https://wa.me/573203510452" target="_blank">
                             <i className="bx bxl-whatsapp"></i>
                         </a>
                     </div>

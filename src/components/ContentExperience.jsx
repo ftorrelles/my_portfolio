@@ -35,27 +35,32 @@ const ContentExperience = () => {
                         <Accordion.Body>
                             <ListGroup variant="flush">
                                 <ListGroup.Item variant="dark">
-                                    Full-stack Developer (Mayo 2023 -
-                                    Actualmente)
+                                    Full-stack Developer (Diciembre 2023 -
+                                    Actualmente) Autonomo
                                 </ListGroup.Item>
                                 <ListGroup.Item>
                                     Me desempeño como desarrollador web full
                                     stack.
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    Enfocado mayormente en el front-end con
-                                    react.js, encargado en la creación de
-                                    plantillas, secciones para futuras ventas,
-                                    también apoyando directamente en proyectos
-                                    de sitios web solicitados por los clientes.
+                                    Me encargo de proyectos utilizando React.js
+                                    y Node.js. En el ámbito del front-end,
+                                    destaco en la construcción de plantillas y
+                                    secciones para software de gestión
+                                    empresarial, aprovechando la potencia y
+                                    versatilidad de React.js para ofrecer
+                                    interfaces intuitivas y funcionales.
                                 </ListGroup.Item>
                                 <ListGroup.Item>
-                                    Me encargo de ejecutar muchas partes del
-                                    back-end, manejo las aplicaciones de
-                                    mensajería de correo electrónico con node.js
-                                    en nodemailer, adicional manejo parte de los
-                                    proyectos que tienen bases de datos en
-                                    PostgreSQL.
+                                    En el back-end, trabajo en proyectos que
+                                    hacen uso de tecnologías como Node.js y
+                                    Express.js, proporcionando soluciones
+                                    eficientes y robustas. Mi experiencia abarca
+                                    la implementación de APIs completas con
+                                    controladores y servicios, utilizando bases
+                                    de datos PostgreSQL, MySQL y Sequelize para
+                                    proyectos que requieren una sólida
+                                    arquitectura de base de datos.
                                 </ListGroup.Item>
                                 <ListGroup.Item>
                                     Trabajo también desplegando los proyectos en
@@ -63,6 +68,39 @@ const ContentExperience = () => {
                                     necesarias de correos electrónicos,
                                     certificados SSL entre otros, asegurando su
                                     correcto funcionamiento.
+                                </ListGroup.Item>
+                            </ListGroup>
+                            <ListGroup variant="flush">
+                                <ListGroup.Item variant="dark">
+                                    Full-stack Developer (Mayo 2023 - Diciembre
+                                    2023) Full time
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    Me desempeñé como desarrollador web full
+                                    stack, centrándome principalmente en el
+                                    front-end con React.js. Estuve a cargo de la
+                                    creación de plantillas y secciones para
+                                    software de control empresarial, además de
+                                    brindar apoyo directo en proyectos de sitios
+                                    web solicitados por los clientes.
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    Además, contribuí significativamente en el
+                                    back-end, trabajando con Node.js,
+                                    Express.js, Sequelize.js, PostgreSQL y
+                                    mySQL, donde participe en la creación de
+                                    APIs completas, desde la definición de
+                                    controladores hasta la ejecución de
+                                    servicios y la gestión eficiente de correos
+                                    electrónicos mediante nodemailer.
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    Mi enfoque también incluyó el despliegue de
+                                    proyectos en servidores, llevando a cabo
+                                    configuraciones esenciales como correos
+                                    electrónicos y certificados SSL, asegurando
+                                    su correcto funcionamiento de extremo a
+                                    extremo.
                                 </ListGroup.Item>
                             </ListGroup>
                         </Accordion.Body>
@@ -75,7 +113,7 @@ const ContentExperience = () => {
                             <ListGroup variant="flush">
                                 <ListGroup.Item variant="dark">
                                     Analista de Bienestar-operaciones (Enero
-                                    2022 - Agosto 2022)
+                                    2022 - Agosto 2022) Full time
                                 </ListGroup.Item>
                                 <ListGroup.Item>
                                     Adquirí habilidades de liderazgo al
@@ -112,6 +150,7 @@ const ContentExperience = () => {
                             <ListGroup>
                                 <ListGroup.Item variant="dark">
                                     Asistente de RRHH (Enero 2021 - Enero 2022)
+                                    Full time
                                 </ListGroup.Item>
                                 <ListGroup.Item>
                                     Lidere planes de Capacitaciones a nivel
@@ -149,7 +188,8 @@ const ContentExperience = () => {
                         <Accordion.Body>
                             <ListGroup variant="flush">
                                 <ListGroup.Item variant="dark">
-                                    Facilitador (Agosto 2017 - Mayo 2021)
+                                    Facilitador (Agosto 2017 - Mayo 2021) Full
+                                    time
                                 </ListGroup.Item>
                                 <ListGroup.Item>
                                     Estuve encargado de facilitar grupos de
@@ -171,7 +211,8 @@ const ContentExperience = () => {
                         <Accordion.Body>
                             <ListGroup variant="flush">
                                 <ListGroup.Item variant="dark">
-                                    Misionero (Octubre 2013 - Octubre 2015)
+                                    Misionero (Octubre 2013 - Octubre 2015) Full
+                                    time
                                 </ListGroup.Item>
                                 <ListGroup.Item>
                                     Adquirí habilidades blandas como
@@ -208,7 +249,7 @@ const ContentExperience = () => {
                             <ListGroup variant="flush">
                                 <ListGroup.Item variant="dark">
                                     practicante administrativo (Octubre 2013 -
-                                    Octubre 2015)
+                                    Octubre 2015) Full time
                                 </ListGroup.Item>
                                 <ListGroup.Item>
                                     Estuve encargado de todo lo referente a los

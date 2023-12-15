@@ -34,7 +34,7 @@ function App() {
                         zIndex: "9999",
                     }}
                 >
-                    <a href="https://wa.me/573134985415" target="_blank">
+                    <a href="https://wa.me/573203510452" target="_blank">
                         <i className="bx bxl-whatsapp-square"></i>
                     </a>
                 </div>
