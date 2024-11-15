@@ -41,12 +41,12 @@ function Footer() {
               <a href="https://wa.me/573043333955" target="_blank">
                 <i className="bx bxl-whatsapp"></i>
               </a>
-              {/* <a
-                                href="https://www.facebook.com/profile.php?id=100092651354702"
-                                target="_blank"
-                            >
-                                <i className="bx bxl-facebook-circle"></i>
-                            </a> */}
+              <a
+                href="https://www.facebook.com/profile.php?id=61568366147058"
+                target="_blank"
+              >
+                <i className="bx bxl-facebook-circle"></i>
+              </a>
             </div>
           </div>
         </div>
