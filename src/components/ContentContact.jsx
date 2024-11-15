@@ -104,15 +104,15 @@ const ContentContact = () => {
           </h6>
           <ul style={{ padding: "0" }}>
             <li>
-              <span style={{ color: "#ef8700" }}>Nombre: </span>
+              <span style={{ color: "#78a083" }}>Nombre: </span>
               Francisco Torrelles
             </li>
             <li>
-              <span style={{ color: "#ef8700" }}>Email: </span>
+              <span style={{ color: "#78a083" }}>Email: </span>
               torrellesf93@gmail.com
             </li>
             <li>
-              <span style={{ color: "#ef8700" }}>telefono:</span>
+              <span style={{ color: "#78a083" }}>telefono:</span>
               +57 304 3333955
             </li>
           </ul>

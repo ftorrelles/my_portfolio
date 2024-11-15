@@ -1,76 +1,76 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .skills-title {
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .skills {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
-    max-width: 1200px;
-    margin: 0 auto;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .skills-slide {
-    padding-top: 3rem;
+  padding-top: 3rem;
 }
 
 .skills_content-items {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
 }
 
 .skills_content-items-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--deatails);
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .skills_content-items-img > i {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .skills_content-items-img i:hover {
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
 }
 
 /* * Estilos para pantallas grandes */
 @media (min-width: 1250px) {
-    .skills {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+  .skills {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
 
 /* Estilos para pantallas medianas */
 @media (max-width: 1249px) and (min-width: 768px) {
-    .skills {
-        max-width: 90%;
-        margin: 0 auto;
-    }
+  .skills {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
 /* Estilos para pantallas pequeñas */
 @media (max-width: 767px) {
-    .skills {
-        max-width: 100%;
-        margin: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-bottom: 3rem;
-        width: 100vw;
-    }
+  .skills {
+    max-width: 100%;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    width: 100vw;
+  }
 }

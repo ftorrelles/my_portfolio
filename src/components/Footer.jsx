@@ -26,7 +26,8 @@ function Footer() {
             </div>
           </div>
           <div className="footer-content">
-            <h4 style={{ textAlign: "center" }}>Francisco Torrelles</h4>
+            {/* <h4 style={{ textAlign: "center" }}>Francisco Torrelles</h4> */}
+            <img src="navLogo.svg" alt="" />
           </div>
           <div className="footer-content">
             <h3 style={{ textAlign: "center" }}>Redes sociales</h3>

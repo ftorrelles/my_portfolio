@@ -3,6 +3,7 @@ import Col from "react-bootstrap/Col";
 
 import "animate.css/animate.min.css";
 import { useInView } from "react-intersection-observer";
+import ContentGame from "./ContentGame";
 
 const ContentAbout = () => {
   //logica libreria react-intersection-observer
@@ -15,7 +16,7 @@ const ContentAbout = () => {
     <>
       <section className="about">
         <Row xs={1} md={2} lg={2}>
-          <Col lg={9}>
+          <Col lg={8}>
             <div className="div_infoDetail_about">
               <h2
                 className={`animate__animated ${
@@ -53,7 +54,10 @@ const ContentAbout = () => {
                 contribuyendo al éxito tanto técnico como humano de los
                 proyectos que lidero. <br />
                 <br /> Estoy en constante capacitación para seguir creciendo y
-                preparado para aportar valor a tu empresa.
+                preparado para aportar valor a tu empresa. Una de mis mayores
+                fortalezas es la capacidad de crear cosas nuevas y diferentes.
+                me gustaria que me conocieras mientras demuestras tus
+                capacidades jugando 3 en linea.
               </p>
             </div>
           </Col>
@@ -62,23 +66,26 @@ const ContentAbout = () => {
               inView ? "animate__fadeInUp" : ""
             } `}
             ref={ref}
-            lg={3}
+            lg={4}
           >
-            <div className="div_img_about">
+            {/* <div className="div_img_about">
               <img src="/myPhoto3.png" alt="" />
-            </div>
+            </div> */}
+            <ContentGame />
+            <br />
+
             <ul style={{ padding: "0", textAlign: "center" }}>
               <li>
-                <span style={{ color: "#ef8700" }}>Nombre: </span>
+                <span style={{ color: "#78a083" }}>Nombre: </span>
                 Francisco Torrelles
               </li>
 
               <li>
-                <span style={{ color: "#ef8700" }}>Email: </span>
+                <span style={{ color: "#78a083" }}>Email: </span>
                 torrellesf93@gmail.com
               </li>
               <li>
-                <span style={{ color: "#ef8700" }}>telefono:</span>
+                <span style={{ color: "#78a083" }}>telefono:</span>
                 +57 304 3333955
               </li>
             </ul>

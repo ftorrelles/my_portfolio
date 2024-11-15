@@ -11,21 +11,21 @@ const ContentHome = () => {
       <Row xs={1} md={1} lg={2}>
         <Col lg={4}>
           <div className="div_img_home">
-            <img src="/myPhoto.png" alt="" />
+            <img src="logoHome.png" alt="" />
           </div>
         </Col>
         <Col className="div_info_home" lg={7}>
           <div className="div_infoDetail_home">
             <h4>Mi nombre es Francisco, me especilizo en</h4>
-            <h1 style={{ color: "#EF8700" }}>
+            <h1 style={{ color: "#78A083" }}>
               <Typewriter
                 options={{
                   strings: [
                     "Desarrollo web Full-Stack",
                     "Javascript",
                     "React.js y Next.js",
-                    "HTML y CSS",
                     "Node.js con Express.js",
+                    "HTML y CSS",
                     "Sequelize, PostgreSQL y MySQL",
                     "Power BI",
                   ],
@@ -36,13 +36,13 @@ const ContentHome = () => {
             </h1>
           </div>
           <div className="div_bt_home">
-            <Button as={Link} to="/skills" variant="outline-warning">
+            <Button as={Link} to="/skills" variant="outline-light">
               Habilidades
             </Button>
-            <Button as={Link} to="/experience" variant="outline-warning">
+            <Button as={Link} to="/experience" variant="outline-light">
               Experiencia
             </Button>
-            <Button as={Link} to="/portfolio" variant="outline-warning">
+            <Button as={Link} to="/portfolio" variant="outline-light">
               Portafolio
             </Button>
           </div>
