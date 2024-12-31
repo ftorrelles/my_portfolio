@@ -23,7 +23,7 @@ const ContentHome = () => {
                   strings: [
                     "Desarrollo web Full-Stack",
                     "Javascript",
-                    "React.js y Next.js",
+                    "React.js",
                     "Node.js con Express.js",
                     "HTML y CSS",
                     "Sequelize, PostgreSQL y MySQL",

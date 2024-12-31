@@ -17,12 +17,12 @@ const NavBar = () => {
         variant="dark"
       >
         <Container>
-          <div style={{ display: "flex", gap: "1rem" }}>
+          {/* <div style={{ display: "flex", gap: "1rem" }}>
             <Navbar.Brand as={Link} to="/">
-              {/* <i className="bx bxs-home"></i> */}
+             
               <img src="navLogo.svg" alt="" />
             </Navbar.Brand>
-          </div>
+          </div> */}
           <Navbar.Toggle aria-controls="navbar-dark-example" />
           <Navbar.Collapse id="navbar-dark-example">
             <Nav>
