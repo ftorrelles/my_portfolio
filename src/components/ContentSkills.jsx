@@ -50,7 +50,7 @@ const ContentSkills = () => {
           } `}
           ref={ref}
         >
-          Mis habilidades
+          My skills
         </h2>
 
         <Slider {...settings}>

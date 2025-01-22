@@ -8,17 +8,31 @@ const ContentPortfolio = () => {
   });
   const projects = [
     {
+      title: "Liliana Pardo",
+      description: "Development of a landing page for a psychologist.",
+      technologies: "React, Javascript y CSS",
+      image: "/portfolio7.jpg",
+      url: "https://sersanarcrecer.com/",
+    },
+    {
       title: "Lazos de amor",
       description:
-        "Desarrollo de landing Page y manejo de redes sociales de una fundación.",
+        "Development of a landing page and social media management for a foundation.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio1.png",
       url: "https://fundacionlazosdeamor.com/",
     },
     {
+      title: "Julio Cesar",
+      description: "Development of a landing page for a therapist.",
+      technologies: "React, Javascript y CSS",
+      image: "/portfolio4.png",
+      url: "https://terapuetajuliocesar.netlify.app/",
+    },
+    {
       title: "Biupoll",
       description:
-        "Desarrollo de una landing page para empresa de investigación de mercado.",
+        "Development of a landing page for a market research company.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio2.png",
       url: "https://www.biupoll.com.co/",
@@ -26,35 +40,28 @@ const ContentPortfolio = () => {
     {
       title: "Vivir Chevere",
       description:
-        "Un software personalizado para la gestión y control de sedes, manejo de ventas y clientes en empresa de productos naturista.",
+        "A custom software for managing and controlling locations, handling sales and clients in a natural products company.",
       technologies: "React, Node.js, Sequelize CLI y MySQL",
       image: "/portfolio6.png",
       url: "",
     },
     {
       title: "NetBar",
-      description: "Desarrollo de una landing page para empresa de internet.",
+      description: "Development of a landing page for an internet company.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio3.png",
       url: "https://netbar.netlify.app/",
     },
     {
-      title: "Julio Cesar",
-      description: "Desarrollo de una landing page para terapeuta.",
-      technologies: "React, Javascript y CSS",
-      image: "/portfolio4.png",
-      url: "https://terapuetajuliocesar.netlify.app/",
-    },
-    {
       title: "Torrelles dev",
-      description: "Desarrollo de una landing page para Desarrollador.",
+      description: "Development of a landing page for a developer.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio5.png",
       url: "https://my-portfolio-ft.netlify.app/",
     },
     {
       title: "Friend Shop app",
-      description: "Desarrollo de una plantilla de tienda virtual eCommerce",
+      description: "Development of an eCommerce virtual store template.",
       technologies: "React, Node.js, Sequelize CLI y PostgreSQL",
       image: "/friend Shop.PNG",
       url: "https://friend-shop-app.netlify.app/",
@@ -62,14 +69,14 @@ const ContentPortfolio = () => {
     {
       title: "Pokédex",
       description:
-        "Creación de app para los fanáticos de Pokemon, en la cual pueden buscar información de sus pokémons favoritos.",
+        "Creation of an app for Pokémon fans, where they can search for information about their favorite Pokémon.",
       technologies: "React, Javascript y CSS",
       image: "/Pokedex.PNG",
       url: "https://pokedex-ft.netlify.app/",
     },
     {
       title: "Carrito de compra",
-      description: "Carrito de compra funcional",
+      description: "Functional shopping cart.",
       technologies: "Javascript, HTML y CSS",
       image: "/carrito.PNG",
       url: "https://clever-gumdrop-546402.netlify.app/",
@@ -84,7 +91,7 @@ const ContentPortfolio = () => {
           } `}
           ref={ref}
         >
-          Algunos de mis proyectos
+          Some of my projects
         </h2>
 
         <div className="Portfolio_content">
@@ -110,13 +117,13 @@ const ContentPortfolio = () => {
                   >
                     <p>{project.description}</p>
                     <p>{project.technologies}</p>
-                    <p>haz click acá para verlo</p>
+                    <p>Click here to watch it</p>
                   </a>
                 ) : (
                   <>
                     <p>{project.description}</p>
                     <p>{project.technologies}</p>
-                    <p>Vista no disponible por derechos privacidad</p>
+                    <p>View not available by privacy rights</p>
                   </>
                 )}
               </div>

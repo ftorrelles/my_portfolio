@@ -28,24 +28,24 @@ const NavBar = () => {
             <Nav>
               <NavDropdown
                 id="nav-dropdown-dark-example"
-                title="Descubre"
+                title="Discover"
                 menuVariant="dark"
               >
                 <NavDropdown.Item as={Link} to="/about">
-                  Acerca de mi
+                  About me
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/experience">
-                  Experiencia
+                  Experience
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/skills">
-                  Habilidades
+                  Skills
                 </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/portfolio">
-                  Portafolio
+                  Portfolio
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item as={Link} to="/contact">
-                  Formulario de contacto
+                  Contact form
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
@@ -53,7 +53,7 @@ const NavBar = () => {
         </Container>
         <Container style={{ display: "flex", justifyContent: "end" }}>
           <Nav.Link
-            href="https://drive.google.com/file/d/1X_VhiUqOy86MaoIfkMs-P5oL5sUKIsLN/view?usp=sharing"
+            href="https://drive.google.com/file/d/18r98zA5ZrszJ1gc7UJr8y0SrZk_IWxk_/view?usp=sharing"
             target="_blank"
           >
             <div
@@ -61,7 +61,7 @@ const NavBar = () => {
                 display: "flex",
               }}
             >
-              <h3>CV</h3> <i className="bx bx-link-external"></i>
+              <h5>Resume</h5> <i className="bx bx-link-external"></i>
             </div>
           </Nav.Link>
         </Container>

@@ -54,40 +54,40 @@ const ContentContact = () => {
             } `}
             ref={ref}
           >
-            Formulario de contacto
+            Contact Form
           </h2>{" "}
           <form onSubmit={handleSubmit(submit)}>
             <div className="form_field">
-              <label htmlFor="name">Nombre</label>
+              <label htmlFor="name">Name</label>
               <input
                 type="text"
                 id="name"
-                placeholder="nombre y apellido"
+                placeholder="First and second name"
                 {...register("name", { required: true })}
               />
             </div>
             <div className="form_field">
-              <label htmlFor="email-input">Email</label>
+              <label htmlFor="email-input">Mail</label>
               <input
                 type="email"
                 id="email-input"
-                placeholder="Email"
+                placeholder="Mail"
                 {...register("email", { required: true })}
               />
             </div>
             <div className="form_field">
-              <label htmlFor="comment">Comentarios</label>
+              <label htmlFor="comment">Comments</label>
               <textarea
                 rows="10"
                 cols="50"
                 name="comment"
                 id="comment"
-                placeholder="Dejame un comentario para tener una idea de como ayudarte"
+                placeholder="Leave me a comment to give me an idea of how I can help you."
                 {...register("comment", { required: true })}
               ></textarea>
             </div>
 
-            <button className="bt_contact">enviar</button>
+            <button className="bt_contact">Send</button>
           </form>
         </Col>
         <Col
@@ -97,22 +97,19 @@ const ContentContact = () => {
           } `}
           ref={ref}
         >
-          <h2 className="titles_contact">Mi informacion de contacto</h2>
-          <h6>
-            Siempre disponible para trabajos independientes. No dude en ponerse
-            en contacto conmigo
-          </h6>
+          <h2 className="titles_contact">My contact information</h2>
+          <h6>Always available for freelance work. Feel free to contact me.</h6>
           <ul style={{ padding: "0" }}>
             <li>
-              <span style={{ color: "#78a083" }}>Nombre: </span>
+              <span style={{ color: "#78a083" }}>Name: </span>
               Francisco Torrelles
             </li>
             <li>
-              <span style={{ color: "#78a083" }}>Email: </span>
+              <span style={{ color: "#78a083" }}>Mail: </span>
               torrellesf93@gmail.com
             </li>
             <li>
-              <span style={{ color: "#78a083" }}>telefono:</span>
+              <span style={{ color: "#78a083" }}>Phone: </span>
               +57 304 3333955
             </li>
           </ul>

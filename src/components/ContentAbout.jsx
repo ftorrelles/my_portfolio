@@ -24,7 +24,7 @@ const ContentAbout = () => {
                 } `}
                 ref={ref}
               >
-                Acerca de mi
+                About me
               </h2>
 
               <hr />
@@ -34,30 +34,21 @@ const ContentAbout = () => {
                 } `}
                 ref={ref}
               >
-                <strong>Desarrollador web full stack</strong> con experiencia en
-                proyectos utilizando en el front-end, React.js, Next.js, Redux,
-                React Router DOM, React Hook Form, Axios y Bootstrap; he
-                implementado diversas librerías para mejorar la experiencia del
-                usuario, desde calendarios hasta efectos visuales. <br />
-                <br /> En el back-end, he trabajado con Node.js, Express.js y
-                Sequelize CLI, implementando tecnologías como Nodemailer, Bcrypt
-                y Jsonwebtoken. Con capacidad de crear APIs completas,
-                gestionando arquitecturas de controladores y servidores, así
-                como la manipulación de bases de datos como PostgreSQL y MySQL.{" "}
+                Full stack web developer with experience in projects using
+                React.js, Redux, React Router DOM, React Hook Form, Axios and
+                Bootstrap among other technologies in the front-end. <br />
+                <br /> In the back-end, I have worked with Node.js, Express.js
+                and Sequelize CLI, implementing technologies such as Nodemailer,
+                BCRYPT and Jsonwebtoken. With experience in creating complete
+                APIs, managing controller and server architectures, as well as
+                manipulating databases such as PostgreSQL and MySQL. <br />
                 <br />
-                <br />
-                Además de mis habilidades técnicas, poseo una sólida capacidad
-                de trabajo en equipo, demostrada al liderar equipos regionales
-                de reclutamiento de hasta 7 personas. Mi historial incluye la
-                gestión efectiva de KPIs, demostrando la capacidad de trabajar
-                bajo presión y la habilidad para aprender rápidamente,
-                contribuyendo al éxito tanto técnico como humano de los
-                proyectos que lidero. <br />
-                <br /> Estoy en constante capacitación para seguir creciendo y
-                preparado para aportar valor a tu empresa. Una de mis mayores
-                fortalezas es la capacidad de crear cosas nuevas y diferentes.
-                me gustaria que me conocieras mientras demuestras tus
-                capacidades jugando 3 en linea.
+                In addition to my technical skills, I possess a strong ability
+                to work in a team, demonstrated by leading regional recruitment
+                teams of up to 7 people. My track record includes the effective
+                management of KPIs, demonstrating the ability to work under
+                pressure and the skill to learn quickly, contributing to both
+                the technical and human success of the projects I lead.
               </p>
             </div>
           </Col>
@@ -76,16 +67,16 @@ const ContentAbout = () => {
 
             <ul style={{ padding: "0", textAlign: "center" }}>
               <li>
-                <span style={{ color: "#78a083" }}>Nombre: </span>
+                <span style={{ color: "#78a083" }}>Name: </span>
                 Francisco Torrelles
               </li>
 
               <li>
-                <span style={{ color: "#78a083" }}>Email: </span>
+                <span style={{ color: "#78a083" }}>Mail: </span>
                 torrellesf93@gmail.com
               </li>
               <li>
-                <span style={{ color: "#78a083" }}>telefono:</span>
+                <span style={{ color: "#78a083" }}>Phone:</span>
                 +57 304 3333955
               </li>
             </ul>

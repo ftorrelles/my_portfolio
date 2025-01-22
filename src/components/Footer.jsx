@@ -7,20 +7,20 @@ function Footer() {
       <footer className="footer">
         <div className="footer_container">
           <div className="footer-content">
-            <h3 style={{ textAlign: "center" }}>Descubre</h3>
+            <h3 style={{ textAlign: "center" }}>Discover</h3>
             <div style={{ textAlign: "center" }}>
               <ul>
                 <li>
-                  <Link to="/portfolio">Portafolio</Link>
+                  <Link to="/portfolio">Portfolio</Link>
                 </li>
                 <li>
-                  <Link to="/experience">Experiancia</Link>
+                  <Link to="/experience">Experience</Link>
                 </li>
                 <li>
-                  <Link to="/skills">Habilidades</Link>
+                  <Link to="/skills">Skills</Link>
                 </li>
                 <li>
-                  <Link to="/about">Sobre mi</Link>
+                  <Link to="/about">About me</Link>
                 </li>
               </ul>
             </div>
@@ -30,7 +30,7 @@ function Footer() {
             <img src="navLogo.svg" alt="" />
           </div>
           <div className="footer-content">
-            <h3 style={{ textAlign: "center" }}>Redes sociales</h3>
+            <h3 style={{ textAlign: "center" }}>Social media</h3>
             <div className="div_icons_contact">
               <a
                 href="https://www.linkedin.com/in/francisco-torrelles-227771209/"

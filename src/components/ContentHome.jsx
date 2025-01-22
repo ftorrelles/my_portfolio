@@ -16,17 +16,17 @@ const ContentHome = () => {
         </Col>
         <Col className="div_info_home" lg={7}>
           <div className="div_infoDetail_home">
-            <h4>Mi nombre es Francisco, me especilizo en</h4>
+            <h4>My name is Francisco, I specialize in</h4>
             <h1 style={{ color: "#78A083" }}>
               <Typewriter
                 options={{
                   strings: [
-                    "Desarrollo web Full-Stack",
-                    "Javascript",
+                    "Full-Stack Web Development",
+                    "JavaScript",
                     "React.js",
-                    "Node.js con Express.js",
-                    "HTML y CSS",
-                    "Sequelize, PostgreSQL y MySQL",
+                    "Node.js with Express.js",
+                    "HTML and CSS",
+                    "Sequelize, PostgreSQL, and MySQL",
                     "Power BI",
                   ],
                   autoStart: true,
@@ -37,13 +37,13 @@ const ContentHome = () => {
           </div>
           <div className="div_bt_home">
             <Button as={Link} to="/skills" variant="outline-light">
-              Habilidades
+              Skills
             </Button>
             <Button as={Link} to="/experience" variant="outline-light">
-              Experiencia
+              Experience
             </Button>
             <Button as={Link} to="/portfolio" variant="outline-light">
-              Portafolio
+              Portfolio
             </Button>
           </div>
           <div className="div_icons_home">

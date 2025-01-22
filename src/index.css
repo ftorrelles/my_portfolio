@@ -239,6 +239,7 @@ textarea {
   gap: 1rem;
 }
 .footer-content a {
+  text-decoration: none;
   color: white;
 }
 .footer-content a:hover {

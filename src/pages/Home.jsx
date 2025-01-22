@@ -7,7 +7,6 @@ import ContentExperience from "../components/ContentExperience";
 import ContentHome from "../components/ContentHome";
 import ContentPortfolio from "../components/ContentPortfolio";
 import ContentSkills from "../components/ContentSkills";
-import ContentGame from "../components/ContentGame";
 
 const Home = () => {
   return (
@@ -21,13 +20,13 @@ const Home = () => {
       >
         <ListGroup horizontal>
           <ListGroup.Item className="bt_top" as={Link} to="/portfolio">
-            Portafolio
+            Portfolio
           </ListGroup.Item>
           <ListGroup.Item className="bt_top" as={Link} to="/experience">
-            Experiencia
+            Experience
           </ListGroup.Item>
           <ListGroup.Item className="bt_top" as={Link} to="/contact">
-            Contactame
+            Contact
           </ListGroup.Item>
         </ListGroup>
       </div>

@@ -20,234 +20,213 @@ const ContentExperience = () => {
           } `}
           ref={ref}
         >
-          Experiencia
+          Experience
         </h2>
 
         <Accordion style={{ paddingTop: "3rem" }} defaultActiveKey="0" flush>
           <Accordion.Item eventKey="0">
-            <Accordion.Header>CodeCraft (10 meses)</Accordion.Header>
+            <Accordion.Header>CodeCraft (Present)</Accordion.Header>
             <Accordion.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item variant="dark">
-                  Full-stack Developer (Diciembre 2023 - Febrero 2024) Autonomo
+                  Frontend Developer (July 2023 - Present) Freelance
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Me desempeñé como desarrollador web full stack.
+                  As a freelance React Frontend Developer, I create responsive,
+                  visually appealing, and optimized web templates tailored to
+                  client needs. My expertise includes:
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Me encargue de proyectos utilizando React.js y Node.js. En el
-                  ámbito del front-end, destaque en la construcción de
-                  plantillas y secciones para software de gestión empresarial,
-                  aprovechando la potencia y versatilidad de React.js para
-                  ofrecer interfaces intuitivas y funcionales.
+                  Developing React components with Redux, React Router DOM, and
+                  Hooks.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  En el back-end, trabaje en proyectos que hacen uso de
-                  tecnologías como Node.js y Express.js, proporcionando
-                  soluciones eficientes y robustas. Mi experiencia abarco la
-                  implementación de APIs completas con controladores y
-                  servicios, utilizando bases de datos PostgreSQL, MySQL y
-                  Sequelize para proyectos que requieren una sólida arquitectura
-                  de base de datos.
+                  Styling with CSS and Bootstrap for clean, modern designs.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Trabaje también desplegando los proyectos en servidores,
-                  realizando las configuraciones necesarias de correos
-                  electrónicos, certificados SSL entre otros, asegurando su
-                  correcto funcionamiento.
+                  Adding features like calendars, animations, and effects.
                 </ListGroup.Item>
-              </ListGroup>
-              <ListGroup variant="flush">
-                <ListGroup.Item variant="dark">
-                  Full-stack Developer (Mayo 2023 - Diciembre 2023) Full time
-                </ListGroup.Item>
+                <ListGroup.Item>Connecting websites to APIs.</ListGroup.Item>
                 <ListGroup.Item>
-                  Me desempeñé como desarrollador web full stack, centrándome
-                  principalmente en el front-end con React.js. Estuve a cargo de
-                  la creación de plantillas y secciones para software de control
-                  empresarial, además de brindar apoyo directo en proyectos de
-                  sitios web solicitados por los clientes.
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Además, contribuí significativamente en el back-end,
-                  trabajando con Node.js, Express.js, Sequelize.js, PostgreSQL y
-                  mySQL, donde participe en la creación de APIs completas, desde
-                  la definición de controladores hasta la ejecución de servicios
-                  y la gestión eficiente de correos electrónicos mediante
-                  nodemailer.
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Mi enfoque también incluyó el despliegue de proyectos en
-                  servidores, llevando a cabo configuraciones esenciales como
-                  correos electrónicos y certificados SSL, asegurando su
-                  correcto funcionamiento de extremo a extremo.
+                  Delivering user-friendly, responsive solutions for various
+                  industries.
                 </ListGroup.Item>
               </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Dichter & Neira (1 año 8 meses)</Accordion.Header>
+            <Accordion.Header>CodeCraft (10 months)</Accordion.Header>
             <Accordion.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item variant="dark">
-                  Analista de Bienestar-operaciones (Enero 2022 - Agosto 2022)
-                  Full time
+                  Full-stack Developer (May 2023 - February 2024) Freelance
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Adquirí habilidades de liderazgo al gestionar equipo regional
-                  de 7 personas
+                  I worked as a full-stack web developer.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Lidere el proceso de reclutamiento de campo a nivel regional y
-                  participe junto a la gerente de RRHH en la creación de los
-                  planes de fidelización, trabajo realizado en 2 meses, teniendo
-                  en cuenta que era un departamento que no existía en la
-                  compañía, los países que estaban en el proyecto eran: <br />{" "}
-                  1. Colombia <br />
-                  2. Costa Rica <br />
-                  3. Panamá <br />
-                  4. Guatemala <br />
-                  5. Perú
+                  On the front end, I specialized in building templates and
+                  sections for business management software, utilizing the power
+                  and versatility of React.js to deliver intuitive and
+                  functional interfaces.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Realice la creación de bases de datos en excel a nivel
-                  regional y la creación de visualizaciones de los datos en
-                  power BI, al mismo tiempo capacite al equipo regional en el
-                  uso de la misma;
+                  On the back end, I engaged in projects using technologies like
+                  Node.js and Express.js, providing efficient and robust
+                  solutions. My experience included implementing complete APIs
+                  with controllers and services, and using PostgreSQL, MySQL,
+                  and Sequelize databases for projects that required a solid
+                  database architecture.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Participé en la creación de Planes y ejecución de los mismos,
-                  creación de indicadores de medición del equipo a mi cargo.
-                </ListGroup.Item>
-              </ListGroup>
-              <ListGroup>
-                <ListGroup.Item variant="dark">
-                  Asistente de RRHH (Enero 2021 - Enero 2022) Full time
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Lidere planes de Capacitaciones a nivel regional logrando más
-                  de 500 capacitaciones en el año 2021.
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Realice la creación de bases de datos en excel y visualización
-                  de los mismos en power BI
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Apoye en temas de documentación para blindar a la compañía en
-                  cuanto a posibles demandas.
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Apoye en temas de vacaciones a nivel Colombia.
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Por los resultados logrados fui reconocido al pasar el año con
-                  una camiseta y una medalla con el valor de la iniciativa, al
-                  mismo tiempo fui promovido como analista de Bienestar-OP.
+                  I also worked on deploying projects on servers, performing the
+                  necessary configurations for emails, SSL certificates, among
+                  others, ensuring their proper functioning.
                 </ListGroup.Item>
               </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
             <Accordion.Header>
-              La iglesia de Jesucristo de los santos de los ultimos días (3 año
-              10 meses)
+              Dichter & Neira (1 year 8 months)
             </Accordion.Header>
             <Accordion.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item variant="dark">
-                  Facilitador (Agosto 2017 - Mayo 2021) Full time
+                  Well-being analyst (January 2022 - August 2022) Full time
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Estuve encargado de facilitar grupos de aproximadamente 10 a
-                  20 Jóvenes en el rango de 18 a 30 años en clases de teología,
-                  autoestima y superación.
+                  I acquired leadership skills by managing a regional team of 7
+                  people.
                 </ListGroup.Item>
-                <ListGroup.Item>Supervise otras clases.</ListGroup.Item>
+                <ListGroup.Item>
+                  I led the field recruitment process at a regional level and
+                  participated, alongside the HR manager, in the creation of
+                  loyalty plans. This work was completed in two months for a
+                  department that previously did not exist in the company. The
+                  countries involved in the project were:: <br /> 1. Colombia{" "}
+                  <br />
+                  2. Costa Rica <br />
+                  3. Panamá <br />
+                  4. Guatemala <br />
+                  5. Perú
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I created regional databases in Excel and developed data
+                  visualizations in Power BI, while simultaneously training the
+                  regional team in its use.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I participated in the creation and execution of plans and
+                  developed performance indicators for the team under my
+                  supervision.
+                </ListGroup.Item>
+              </ListGroup>
+              <ListGroup>
+                <ListGroup.Item variant="dark">
+                  HR assistant (Enero 2021 - Enero 2022) Full time
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I led training plans at a regional level, achieving over 500
+                  trainings in the year 2021.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I created databases in Excel and visualized them in Power BI.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I supported documentation issues to protect the company
+                  against potential lawsuits.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I assisted with vacation matters across Colombia.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  Due to the achieved results, I was recognized at the end of
+                  the year with a T-shirt and a medal that embodied the value of
+                  initiative. At the same time, I was promoted to the position
+                  of Well-being-OP Analyst.
+                </ListGroup.Item>
               </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="3">
             <Accordion.Header>
-              La iglesia de Jesucristo de los santos de los ultimos días (2 año
-              1 mes)
+              The church of Jesus Christ of latter-day saints (3 years 10
+              months)
             </Accordion.Header>
             <Accordion.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item variant="dark">
-                  Misionero (Octubre 2013 - Octubre 2015) Full time
+                  Course Facilitator (August 2017 - May 2021) Full time
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Adquirí habilidades blandas como comunicación, atención al
-                  público al compartir lecciones de teología, la familia,
-                  Jesucristo entre muchos otros temas.
+                  I was in charge of facilitating groups of approximately 10 to
+                  20 young people, aged 18 to 30, in classes on theology,
+                  self-esteem, and personal development.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Lidere grupos de hasta 16 misioneros.
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Participe en la planificación de metas para la misión.
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  Por el buen desempeño me llamaron como secretario del
-                  Presidente de misión por 6 meses, encargandome de varios temas
-                  administrativos como: <br /> 1. Planificar itinerarios de
-                  hospedaje, viaje para nuevos misioneros. <br /> 2. Encargado
-                  de la compra y entrega de suministro (materiales, libros,
-                  placas entre otras). <br /> 3. Planificar agenda del
-                  Presidente de misión.
+                  I also supervised other classes.
                 </ListGroup.Item>
               </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="4">
-            <Accordion.Header>Del Monte Andina (3 años)</Accordion.Header>
+            <Accordion.Header>
+              The church of Jesus Christ of latter-day saints (2 years 1 month)
+            </Accordion.Header>
             <Accordion.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item variant="dark">
-                  practicante administrativo (Octubre 2013 - Octubre 2015) Full
-                  time
+                  Missionary Service Volunteer (October 2013 - October 2015)
+                  Full time
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Estuve encargado de todo lo referente a los archivos tanto
-                  físicos como digitales de toda el área operativa de la
-                  compañía.
+                  I acquired soft skills such as communication and public
+                  engagement while sharing lessons on theology, family, Jesus
+                  Christ, among many other topics.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Apoye en la carga de datos de los insumos utilizados en
-                  producción a las bases de información regional.
+                  I led groups of up to 16 missionaries.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Estuve encargado del abastecimiento de materiales de
-                  protección del personal del área operativa.
+                  I participated in planning goals for the mission.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  Due to my good performance, I was appointed as the Mission
+                  President's Secretary for six months, taking charge of various
+                  administrative matters such as: <br /> 1. Planning
+                  accommodation and travel itineraries for new missionaries.{" "}
+                  <br /> 2. Responsible for the purchase and delivery of
+                  supplies (materials, books, badges, among others). <br /> 3.
+                  Planning the Mission President's schedule.
+                </ListGroup.Item>
+              </ListGroup>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="5">
+            <Accordion.Header>Del Monte Andina (3 Years)</Accordion.Header>
+            <Accordion.Body>
+              <ListGroup variant="flush">
+                <ListGroup.Item variant="dark">
+                  Administrative Assistant Intern (October 2013 - October 2015)
+                  Full time
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I was in charge of managing both physical and digital files
+                  for the entire operational area of the company.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I assisted in uploading data regarding the supplies used in
+                  production to the regional information databases.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  I was also responsible for supplying personal protective
+                  equipment to the staff in the operational area.
                 </ListGroup.Item>
               </ListGroup>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-        {/* <div
-                    style={{
-                        position: "absolute",
-                        top: "6rem",
-                        right: "1rem",
-                    }}
-                >
-                    <ListGroup horizontal>
-                        <ListGroup.Item
-                            className="bt_top"
-                            as={Link}
-                            to="/portfolio"
-                        >
-                            Portafolio
-                        </ListGroup.Item>
-                        <ListGroup.Item
-                            className="bt_top"
-                            as={Link}
-                            to="/contact"
-                        >
-                            Contacto
-                        </ListGroup.Item>
-                    </ListGroup>
-                </div> */}
       </div>
     </>
   );
