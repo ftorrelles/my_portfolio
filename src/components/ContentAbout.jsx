@@ -35,8 +35,11 @@ const ContentAbout = () => {
                 ref={ref}
               >
                 Full stack web developer with experience in projects using
-                React.js, Redux, React Router DOM, React Hook Form, Axios and
-                Bootstrap among other technologies in the front-end. <br />
+                Angular, React.js, Redux, React Router DOM, React Hook Form,
+                WordPress, Elementor, Axios, Bootstrap, Figma, and other
+                front-end technologies. I have developed responsive, visually
+                appealing interfaces and worked with design tools like Figma to
+                translate mockups into functional user experiences. <br />
                 <br /> In the back-end, I have worked with Node.js, Express.js
                 and Sequelize CLI, implementing technologies such as Nodemailer,
                 BCRYPT and Jsonwebtoken. With experience in creating complete

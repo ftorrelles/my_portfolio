@@ -27,7 +27,7 @@ const ContentPortfolio = () => {
       description: "Development of a landing page for a therapist.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio4.png",
-      url: "https://terapuetajuliocesar.netlify.app/",
+      url: "https://fundacionadicciones.com/",
     },
     {
       title: "Biupoll",
@@ -50,7 +50,7 @@ const ContentPortfolio = () => {
       description: "Development of a landing page for an internet company.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio3.png",
-      url: "https://netbar.netlify.app/",
+      url: "https://netbartelecom.com/",
     },
     {
       title: "Torrelles dev",

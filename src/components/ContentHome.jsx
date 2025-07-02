@@ -21,10 +21,11 @@ const ContentHome = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Full-Stack Web Development",
+                    "Frontend Web Development",
                     "JavaScript",
                     "React.js",
                     "Node.js with Express.js",
+                    "WordPress and Elementor",
                     "HTML and CSS",
                     "Sequelize, PostgreSQL, and MySQL",
                     "Power BI",

@@ -32,26 +32,33 @@ const ContentExperience = () => {
                   Frontend Developer (July 2023 - Present) Freelance
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  As a freelance React Frontend Developer, I create responsive,
-                  visually appealing, and optimized web templates tailored to
-                  client needs. My expertise includes:
+                  As a freelance frontend developer with experience in React,
+                  Angular, and WordPress, I create responsive, visually
+                  appealing, and optimized web templates tailored to client
+                  needs. My experience includes:
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Developing React components with Redux, React Router DOM, and
+                  Developing React components using Redux, React Router DOM, and
                   Hooks.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Styling with CSS and Bootstrap for clean, modern designs.
+                  Implementing solutions in Angular, using services, directives,
+                  and routing to build scalable and dynamic applications.
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  Adding features like calendars, animations, and effects.
+                  Creating and customizing WordPress sites, integrating themes,
+                  plugins, and optimizing for performance and SEO.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  Styling with CSS and Bootstrap for clean and modern layouts.
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  Delivering user-friendly and responsive solutions across
+                  various industries.
                 </ListGroup.Item>
                 <ListGroup.Item>Connecting websites to APIs.</ListGroup.Item>
-                <ListGroup.Item>
-                  Delivering user-friendly, responsive solutions for various
-                  industries.
-                </ListGroup.Item>
               </ListGroup>
+              <ListGroup.Item></ListGroup.Item>
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
