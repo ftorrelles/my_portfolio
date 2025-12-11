@@ -8,11 +8,19 @@ const ContentPortfolio = () => {
   });
   const projects = [
     {
+      title: "Biupoll",
+      description:
+        "Development of a landing page for a market research company.",
+      technologies: "React, Javascript y CSS",
+      image: "/portfolio2.png",
+      url: "https://netbar.netlify.app/",
+    },
+    {
       title: "Liliana Pardo",
       description: "Development of a landing page for a psychologist.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio7.jpg",
-      url: "https://sersanarcrecer.com/",
+      url: "https://liliana-pardo.netlify.app/",
     },
     {
       title: "Lazos de amor",
@@ -20,30 +28,23 @@ const ContentPortfolio = () => {
         "Development of a landing page and social media management for a foundation.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio1.png",
-      url: "https://fundacionlazosdeamor.com/",
+      url: "https://lazos-de-amor.netlify.app/",
     },
     {
       title: "Julio Cesar",
       description: "Development of a landing page for a therapist.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio4.png",
-      url: "https://fundacionadicciones.com/",
+      url: "https://terapuetajuliocesar.netlify.app/",
     },
-    {
-      title: "Biupoll",
-      description:
-        "Development of a landing page for a market research company.",
-      technologies: "React, Javascript y CSS",
-      image: "/portfolio2.png",
-      url: "https://www.biupoll.com.co/",
-    },
+
     {
       title: "Vivir Chevere",
       description:
         "A custom software for managing and controlling locations, handling sales and clients in a natural products company.",
       technologies: "React, Node.js, Sequelize CLI y MySQL",
       image: "/portfolio6.png",
-      url: "",
+      url: "https://www.youtube.com/watch?v=KKoggMgaJDw",
     },
     {
       title: "NetBar",
