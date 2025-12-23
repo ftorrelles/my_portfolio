@@ -13,7 +13,7 @@ const ContentPortfolio = () => {
         "Development of a landing page for a market research company.",
       technologies: "React, Javascript y CSS",
       image: "/portfolio2.png",
-      url: "https://netbar.netlify.app/",
+      url: "https://www.biupoll.com.co/",
     },
     {
       title: "Liliana Pardo",
